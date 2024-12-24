@@ -15,6 +15,10 @@
 #:        - "libxkbcommon-dev", "Python3", "libglib2.0-dev", "libgdk-pixbuf2.0-dev", "libxi-dev", "libxrender-dev", "libxrandr-dev", "libxinerama-dev"
 #:Credits: @chrisduerr and @kchibisov, creators of Alacritty.
 
+#clear the terminal
+
+clear
+
 if nslookup google.com &> /dev/null; then
     # If there is a connection, display "AlacrittyForge" in ASCII
     echo -e "\n-----------------------------------------------------------------------------------------------------------------"
